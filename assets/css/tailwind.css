@@ -35,7 +35,7 @@
 */
 
 .bg-white{
-  background-color: white;
+  background-color: rgb(189, 25, 25);
 }
 
 html {
@@ -484,6 +484,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .container {
   width: 100%;
+  
   margin-right: auto;
   margin-left: auto;
   padding-right: 16px;
@@ -645,10 +646,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 2rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .mx-2 {
   margin-left: 0.5rem;
@@ -678,15 +676,31 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-8 {
   margin-bottom: 2rem;
 }
-
+#file_btn::-webkit-file-upload-button{
+  color:white;
+  background: #3056d3;
+  border-radius: 0.375rem;
+  border:1px solid #3056d3;
+}
 .mb-10 {
+  margin:0 auto;
   margin-bottom: 2.5rem;
 }
-
+#regis_btn{
+  width: 200px;
+  
+}
+form #regis_btn{
+  justify-content: end;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
+#drop-down option {
+  border-bottom: 1px solid gray;
+padding: 10px;
+}
 .mb-7 {
   margin-bottom: 1.75rem;
 }
@@ -955,8 +969,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 140px;
 }
 
+h1{
+  font-size: 30px;
+  font-weight: 600;
+}
 .max-w-\[525px\] {
-  max-width: 525px;
+  width: 60vw;
+  margin:0 auto;
 }
 
 .-translate-y-1\/2 {
@@ -1026,7 +1045,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .justify-between {
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .overflow-hidden {
@@ -1075,7 +1094,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .rounded-tr-full {
-  border-top-right-radius: 9999px;
+  border-top-right-radius: 9999px;  
 }
 
 .rounded-bl-full {
@@ -1150,12 +1169,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(255, 255, 255);
 }
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 86 211 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#f5f8ff\] {
@@ -1195,7 +1213,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[\#F4F7FF\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(244 247 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#FCFDFE\] {
@@ -1404,10 +1421,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-\[120px\] {
   padding-top: 120px;
-}
-
-.pb-\[100px\] {
-  padding-bottom: 100px;
 }
 
 .pt-20 {
@@ -2251,6 +2264,7 @@ body {
   .lg\:top-\[110\%\] {
     top: 110%;
   }
+ 
 
   .lg\:mr-0 {
     margin-right: 0px;
@@ -2457,7 +2471,7 @@ body {
   }
 
   .lg\:pt-\[160px\] {
-    padding-top: 160px;
+    padding-top: 102px;
   }
 
   .lg\:pt-\[120px\] {

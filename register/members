@@ -1,0 +1,6 @@
+function member(){
+
+    document.getElementById('print').innerHTML=document.getElementById("membCount").options[document.getElementById("membCount").selectedIndex].value;
+
+    
+}
