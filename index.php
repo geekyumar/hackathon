@@ -5131,6 +5131,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/__lib/main.php';
     <!-- ====== All Scripts -->
 
     <script src="/assets/js/main.js"></script>
+    
     <script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");

@@ -4,8 +4,6 @@ include $_SERVER['DOCUMENT_ROOT'].'/__lib/main.php';
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
